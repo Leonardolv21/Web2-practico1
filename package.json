@@ -1,31 +1,32 @@
 {
-  "dependencies": {
-    "ejs": "^5.0.1",
-    "express": "^5.2.1",
-    "sequelize": "^6.37.8",
-    "sqlite3": "^6.0.1"
-  },
   "name": "web2-practico1",
   "version": "1.0.0",
   "description": "Sistema de Gestión de Reservas para Canchas Deportiva",
-  "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+  "keywords": [],
+  "homepage": "https://github.com/Leonardolv21/Web2-practico1#readme",
+  "bugs": {
+    "url": "https://github.com/Leonardolv21/Web2-practico1/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leonardolv21/Web2-practico1.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Leonardolv21/Web2-practico1/issues"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "homepage": "https://github.com/Leonardolv21/Web2-practico1#readme"
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8",
+    "sha1": "^1.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }

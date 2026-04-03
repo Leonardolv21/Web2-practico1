@@ -1,0 +1,22 @@
+<%- include('../components/header.ejs') %>
+
+<div class="container">
+    <h1>Gestión de Canchas</h1>
+    <form action="/admin/canchas" method="post">
+        <div class="mb-2">
+            <label class="form-label" for="nombre">Nombre</label>
+            <input class="form-control" type="text" name="nombre" id="nombre" required>
+        </div>
+        <div class="mb-2">
+            <label class="form-label" for="tipo_id">Tipo</label>
+            <input class="form-control" type="text" name="tipo_id" id="tipo_id" required>
+        </div>
+        <div class="mb-2">
+            <label class="form-label" for="precio_por_hora">Precio por Hora</label>
+            <input class="form-control" type="number" name="precio_por_hora" id="precio_por_hora" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar Cancha</button>
+    </form>
+</div>
+
+<%- include('../components/footer.ejs') %>
